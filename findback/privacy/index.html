@@ -11,7 +11,7 @@
     <main class="shell">
       <p class="eyebrow">FindBack</p>
       <h1>Privacy Policy</h1>
-      <p class="doc-meta">Effective date: June 19, 2026<br>Operator: PungPung Studio<br>Contact: <a href="mailto:pung0805@gmail.com">pung0805@gmail.com</a></p>
+      <p class="doc-meta">Effective date: June 21, 2026<br>Operator: PungPung Studio<br>Contact: <a href="mailto:pung0805@gmail.com">pung0805@gmail.com</a></p>
 
       <nav class="top-nav" aria-label="FindBack policy pages">
         <a href="../">Overview</a>
@@ -25,46 +25,44 @@
 
         <h2>Information We Process</h2>
         <h3>Account Information</h3>
-        <p>If you create an account or sign in, we may process your email address, user ID, workspace ID, account creation time, session cookies, and password hash. We do not store your password in plain text.</p>
+        <p>The current native app is designed to sync saved links through the user's private iCloud database and does not require a separate FindBack account for bookmark sync. Some previous or test builds may include account sign-in; if you use one of those builds, we may process account identifiers such as email address, user ID, workspace ID, session cookies, and account creation time.</p>
 
         <h3>Saved Links and Notes</h3>
         <p>When you save a link, FindBack may process the original URL, normalized URL, page title, source domain, content type, notes you enter, generated categories, tags, topics, keywords, saved date, and basic item metadata needed to show, search, open, and delete saved links.</p>
 
-        <h3>Metadata Fetching</h3>
-        <p>FindBack may fetch public HTML metadata from a saved URL, such as title, description, and site name, to make saved links easier to recognize. FindBack is designed to skip local, private, and unsafe network targets during server-side metadata fetching.</p>
+        <h3>Metadata and Search</h3>
+        <p>FindBack may generate basic local metadata, categories, tags, and keywords to make saved links easier to recognize and search. External AI processing and server-side metadata fetching are off by default in the current native release.</p>
 
-        <h3>Cookies and Local App Data</h3>
-        <p>FindBack may use signed cookies to maintain account sessions and guest workspaces. The apps may store settings, API connection settings, temporary share extension data, and local UI state on your device.</p>
+        <h3>iCloud, Share Extension, and Local App Data</h3>
+        <p>Saved links may be stored in your private iCloud CloudKit database so your iPhone, iPad, and Mac can sync through your Apple account. The apps may also store settings, temporary Share Extension data, and local UI state on your device.</p>
 
         <h3>Technical Data</h3>
-        <p>For security, abuse prevention, diagnostics, and service operation, our API host may process technical information such as IP address, request time, API path, response status, app version, OS version, client type, error logs, and rate-limit information.</p>
+        <p>For support, diagnostics, and platform operation, Apple and the operating system may process technical information related to app distribution, iCloud, crash logs, and device operation. If you contact support, we may process the information you include in your message.</p>
 
         <h2>How We Use Information</h2>
         <ul>
-          <li>To create accounts, sign users in, and maintain sessions.</li>
           <li>To save, sync, search, open, and delete links.</li>
-          <li>To move guest saves into an account when requested.</li>
           <li>To support iOS Share Extension saving.</li>
-          <li>To extract link metadata and improve search quality.</li>
-          <li>To protect the service, prevent abuse, and diagnose problems.</li>
+          <li>To generate local metadata and improve search quality.</li>
+          <li>To answer support requests and diagnose problems.</li>
           <li>To comply with legal, security, and platform requirements.</li>
         </ul>
 
         <h2>Third-Party Services</h2>
-        <p>FindBack may rely on Apple for app distribution and operating system features, Supabase or another hosted Postgres provider for database storage, Railway or another API hosting provider for the FindBack API, and infrastructure providers for networking and deployment.</p>
+        <p>FindBack may rely on Apple for app distribution, iCloud, CloudKit, Share Extension support, operating system features, crash diagnostics, and device-level sync. We may use email and website hosting providers to provide support and publish policy pages.</p>
         <p>FindBack does not include third-party advertising SDKs, third-party analytics SDKs, or tracking SDKs in the current release. FindBack does not use saved link data to track you across other companies' apps or websites.</p>
 
         <h2>AI Processing</h2>
-        <p>External AI processing is off by default in the current release. If AI features are added in the future, this policy and App Store privacy disclosures will be updated as needed.</p>
+        <p>External AI processing is off by default in the current native release. If AI features are added in the future, this policy and App Store privacy disclosures will be updated as needed.</p>
 
         <h2>Retention and Deletion</h2>
-        <p>Account information and saved links may be stored while your account remains active or while you keep the saved items. If you delete a saved item, FindBack deletes that item from the service storage. If you delete your account, FindBack deletes account data and linked saved items, except for limited records that may be retained for security, legal compliance, fraud prevention, backups, or dispute handling.</p>
+        <p>Saved links may remain in your private iCloud database while you keep the saved items and iCloud data. If you delete a saved item, FindBack requests deletion of that item from CloudKit. Apple may retain iCloud backups or logs according to Apple's policies. If you used a previous account-based build, you may request deletion of account data by contacting support.</p>
 
         <h2>Your Choices</h2>
         <ul>
           <li>Delete saved links in the app.</li>
-          <li>Log out of your account.</li>
-          <li>Delete your account from the account screen or request help by email.</li>
+          <li>Manage iCloud sign-in and iCloud app data through Apple system settings.</li>
+          <li>Request help by email if you used a previous account-based build.</li>
           <li>Delete the app to remove local app data from your device, subject to operating system backup settings.</li>
           <li>Contact us to request access, correction, deletion, or other privacy help.</li>
         </ul>
@@ -73,7 +71,7 @@
         <p>FindBack is not directed to children under 13 and is not intended to collect personal information from children.</p>
 
         <h2>Security</h2>
-        <p>FindBack uses password hashing, signed cookies, production secrets, rate limiting, security headers, and metadata-fetch safeguards. No internet service can guarantee perfect security, but we work to protect user data with reasonable safeguards.</p>
+        <p>FindBack relies on Apple's iCloud and CloudKit security for private sync, and uses platform safeguards for local app data. No internet or cloud service can guarantee perfect security, but we work to protect user data with reasonable safeguards.</p>
 
         <h2>Changes</h2>
         <p>We may update this policy when FindBack changes, when our infrastructure changes, or when legal or platform requirements change. The updated policy will be posted on this page.</p>
