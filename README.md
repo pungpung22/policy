@@ -15,3 +15,11 @@ Static GitHub Pages site for public app policy and support pages.
 - Privacy Policy: `/jackpot-lab/privacy/`
 - Terms of Service: `/jackpot-lab/terms/`
 - Data Deletion: `/jackpot-lab/data-deletion/`
+
+## Market Companion URLs
+
+- Support: `/market-companion/support/`
+- Privacy Policy: `/market-companion/privacy/`
+- Terms of Service: `/market-companion/terms/`
+- Data Deletion: `/market-companion/data-deletion/`
+- Financial Disclaimer: `/market-companion/disclaimer/`
