@@ -2,6 +2,13 @@
 
 Static GitHub Pages site for public app policy and support pages.
 
+## Chorelay URLs
+
+- Support: `/chorerelay/support/`
+- Privacy Policy: `/chorerelay/privacy/`
+- Terms of Service: `/chorerelay/terms/`
+- Account and Data Deletion: `/chorerelay/account-deletion/`
+
 ## FindBack URLs
 
 - Support: `/findback/support/`
