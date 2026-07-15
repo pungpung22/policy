@@ -2,6 +2,15 @@
 
 Static GitHub Pages site for public app policy and support pages.
 
+## Midnight Letter URLs
+
+- Overview: `/midnight-letter/`
+- Support: `/midnight-letter/support/`
+- Privacy Policy: `/midnight-letter/privacy/`
+- Terms of Service: `/midnight-letter/terms/`
+- Community Guidelines: `/midnight-letter/community/`
+- Account and Data Deletion: `/midnight-letter/account-deletion/`
+
 ## Chorelay URLs
 
 - Support: `/chorerelay/support/`
