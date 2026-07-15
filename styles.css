@@ -110,6 +110,14 @@ h3 {
   padding: clamp(24px, 5vw, 44px);
 }
 
+.language-section {
+  scroll-margin-top: 24px;
+}
+
+.language-section + .language-section {
+  margin-top: 24px;
+}
+
 .card-list {
   display: grid;
   gap: 16px;
